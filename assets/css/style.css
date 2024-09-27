@@ -1,0 +1,70 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    
+}
+@font-face {
+    font-family:roboto ;
+    src: url(../fonts/fonts.txt);
+}
+h1{
+    text-transform: uppercase;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+nav{
+    margin: 2rem;
+    padding: 0 15%;
+    text-transform: uppercase;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.btn{
+    color: black;
+}
+
+h1{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+    
+}
+#head{
+    background-image: url(../image/banner.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}    
+
+#savoir{
+    text-align: center;
+    margin-top: 6rem;    
+}
+
+#savoir h2{
+    padding-bottom: 3rem;
+}
+#savoir p{
+    margin: 3rem;
+}
+
+#savoir a{
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 10%;   
+}
+
+
+
+
