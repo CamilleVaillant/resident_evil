@@ -2,7 +2,6 @@
     text-decoration: none;
     list-style: none;
     margin: 0;
-    
 }
 @font-face {
     font-family:roboto ;
@@ -34,7 +33,7 @@ h1{
     color: white;
     display: flex;
     justify-content: center;
-    padding-top: 20%;
+    padding-top: 8%;
     
 }
 #head{
@@ -44,7 +43,16 @@ h1{
     background-size: cover;
     background-position: center;
     position: relative;
-}    
+}
+.logo{
+    background-image: url(../image/Resident_Evil_4_Logo_Light_Outlined.png);
+    width: 80%;
+    height: 200px;
+    background-size: cover;
+    position: relative;
+    margin:0 15%;
+
+}
 
 #savoir{
     text-align: center;
@@ -59,12 +67,162 @@ h1{
 }
 
 #savoir a{
-    background-color: red;
-    color: white;
-    border: 1px solid red;
-    border-radius: 10%;   
+   display: flex;
+   justify-content: center;
+   margin-top: 3rem;
+   background-color: red;
+   padding: 1rem;
+   margin: 1rem;
+   display: inline-block;
+   color: white;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+.corp{
+    display: flex;
+    margin: 2rem;
+    justify-content: space-around;
+
 }
 
+ .cart1{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 30%;
+    height: 400px;
+    background-color: rgb(48, 46, 46);
+
+ }
+.img1{
+    background-image: url(../image/new-monsters.jpg);
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    
+}
+.cart1 h3{
+    color: white;
+    margin: 1rem;
+}
+.cart1 p{
+    color: white;
+    margin: 2rem 2rem;
+}
+
+.cart2{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 30%;
+    height: 400px;
+    background-color:  rgb(48, 46, 46);
+}
+.img2{
+    background-image: url(../image/new-graphism.jpg);
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+}
+.cart2 h3{
+    color: white;
+    margin: 1rem;
+}
+.cart2 p{
+    color: white;
+    margin: 2rem 2rem;
+}
+
+.cart3{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 30%;
+    height: 400px;
+    background-color:  rgb(48, 46, 46);
+}
+.img3{
+    background-image: url(../image/new-gameplay.jpeg);
+    width: 100%;
+    height: 50%;
+    background-size: cover ;
+}
+.cart3 h3{
+    color: white;
+    margin: 1rem;
+}
+.cart3 p{
+    color: white;
+    margin: 2rem 2rem;
+}
+
+.formulaire{
+    display: inline-block;
+    background-color: rgb(48, 46, 46) ;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+.formulaire h2{
+    color: white;
+}
+
+.formulaire div{
+    display: flex;
+    justify-content: center;
+}
+
+div input{
+    width: 10rem;
+    height: 3rem;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 2rem;
+}
+div button{
+    background-color: red;
+    border: px solid black;
+    color: white;
+    margin-left: 2rem;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 10px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 25%;
+    background-color: black;
+    height: 100%;
+}
+footer{
+    height: 10rem;
+}
+.footbar a{
+    color: white;
+}
+footer div{
+    background-image: url(../image/Resident_Evil_4_Logo_Light_Outlined.png);
+    background-size: cover;
+    width: 25%;
+    height: 50%;
+}   
+
+header li{
+    border-right: solid black 2px;
+}
+header a{
+    margin-right: 5rem;
+}
+header li:last-child{
+    border: none;
+}
 
 
 
