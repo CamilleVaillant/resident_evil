@@ -201,18 +201,11 @@ footer ul{
     background-color: black;
     height: 100%;
 }
-footer{
-    height: 10rem;
-}
+
 .footbar a{
     color: white;
 }
-footer div{
-    background-image: url(../image/Resident_Evil_4_Logo_Light_Outlined.png);
-    background-size: cover;
-    width: 25%;
-    height: 50%;
-}   
+ 
 
 header li{
     border-right: solid black 2px;
@@ -223,6 +216,5 @@ header a{
 header li:last-child{
     border: none;
 }
-
 
 
