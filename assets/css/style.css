@@ -27,6 +27,10 @@ nav{
 }
 .btn{
     color: black;
+    
+}
+.navbar .btn:not(:last-child){
+    border-right: 1px solid black;
 }
 
 h1{
@@ -38,21 +42,21 @@ h1{
 }
 #head{
     background-image: url(../image/banner.jpg);
-    width: 100%;
-    height: 400px;
     background-size: cover;
     background-position: center;
-    position: relative;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
-.logo{
-    background-image: url(../image/Resident_Evil_4_Logo_Light_Outlined.png);
-    width: 80%;
-    height: 200px;
-    background-size: cover;
-    position: relative;
-    margin:0 15%;
+#head .logo{
+    width: 50%;
+}
 
-}
+
+
 
 #savoir{
     text-align: center;
@@ -194,27 +198,76 @@ div button{
     border-radius: 10px;
 }
 
-footer ul{
+footer{
+    background-color: black;
     display: flex;
     justify-content: space-around;
-    margin-left: 25%;
-    background-color: black;
-    height: 100%;
+    align-items: center;
+}
+footer img{
+    width: 5%;
+    padding: 1rem 0;
 }
 
-.footbar a{
+footer .footbar{
+    color: white;
+    display: flex;
+    padding: 0;
+}
+footer .footbar li a{
+    padding: 0 1rem;
+}
+
+footer .footbar li:not(:last-child) a{
+    border-right: white solid 1px;
+} 
+footer a{
     color: white;
 }
- 
+@media screen and (max-width: 900px ) {
+    footer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footbar{
+        flex-direction: column;
+        align-items: center;
 
-header li{
-    border-right: solid black 2px;
-}
-header a{
-    margin-right: 5rem;
-}
-header li:last-child{
-    border: none;
-}
+    }
+    .footbar a{
+        margin 2rem
+    }  
+    #head h1{
+        font-size: 60%;
 
-
+    }
+    footer .footbar li:not(:last-child) a{
+        border-right: none;
+    }
+    footer img{
+        width: 25%;
+        padding: 1rem 0;
+    }
+}
+@media screen and (max-width: 700px){
+    .navbar{
+        flex-direction: column;
+        align-items: center;
+    }
+    .navbar .btn{
+        padding: 1rem;
+        margin: 1rem;
+    }
+    #head .logo{
+        width: 70%;
+    }
+    .corp{
+        flex-direction: column;
+    }
+    .cart1,.cart2,.cart3{
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 3rem;
+    }
+   
+}
